@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE Products [
+    <!ELEMENT Products (Brand)>
+    <!ELEMENT Brand (Name,Address,URL,Email,Durable,Consumable)>
+    <!ELEMENT Durable (Description,Technical,Note)>
+    <!ELEMENT Consumable (Description,Technical,UsedBy*)>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT Address (#PCDATA)>
+    <!ELEMENT URL (#PCDATA)>
+    <!ELEMENT Email (#PCDATA)>
+    <!ATTLIST Durable PID CDATA 'C001'>
+    <!ELEMENT Description (#PCDATA)>
+    <!ELEMENT Technical (#PCDATA | Hyperlink)*>
+    <!ELEMENT Hyperlink (#PCDATA)>
+    <!ATTLIST Hyperlink URL CDATA 'http://www.sc.com/G001.html'>
+    <!ATTLIST Hyperlink Text CDATA 'CO01 Product page'>
+    <!ELEMENT Note (#PCDATA)>
+    <!ATTLIST Consumable PID CDATA 'FD001'>
+    <!ELEMENT UsedBy (#PCDATA)>
+    <!ATTLIST UsedBy PID CDATA 'C001'>
+    <!ATTLIST UsedBy PID CDATA 'C002'>
+]> -->
+
+<Products>
+    <Brand>
+        <Name>SC</Name>
+        <Address> New York</Address>
+        <contact>123456789</contact>
+        <Email> helpdesk@sc.com</Email>
+        <Durable>
+            <Description>Computer 500 MHz, RAM 128MB, Hard disk 10GB</Description>
+            <Technical> Technical info can be found at</Technical>
+            <Note>This PC supports Windows 2000</Note>
+        </Durable>
+    </Brand>
+</Products>
